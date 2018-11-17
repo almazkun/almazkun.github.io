@@ -26,18 +26,21 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="html" value="1" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="1" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="8" />
           <entry key="HTML" value="358" />
+          <entry key="Python" value="402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -45,39 +48,67 @@
         <counts>
           <entry key="css" value="8" />
           <entry key="html" value="358" />
+          <entry key="py" value="402" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitkoreakz/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="7859" column="36" lean-forward="true" selection-start-line="7859" selection-start-column="36" selection-end-line="7859" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visitkoreakz/visitkoreakz/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>disp</find>
       <find>html</find>
       <find>chil</find>
-      <find>chi</find>
       <find>chic</find>
+      <find>chi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,6 +120,10 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/views.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/migrations/urls.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/urls.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/visitkoreakz/urls.py" />
       </list>
     </option>
   </component>
@@ -116,6 +151,30 @@
               <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,6 +183,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\almazkun.github.io\visitkoreakz\polls" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,7 +253,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="7859" column="36" lean-forward="true" selection-start-line="7859" selection-start-column="36" selection-end-line="7859" selection-end-column="36" />
+          <caret line="7859" column="36" selection-start-line="7859" selection-start-column="36" selection-end-line="7859" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -197,6 +261,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/visitkoreakz/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
