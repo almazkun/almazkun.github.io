@@ -1,5 +1,18 @@
-from django.http import HttpResponse
+from django.shortcuts import render
+from polls.models import Book, Author, BookInstance, Genre
 
 
 def index(request):
-    return HttpResponse("Hello, world! You'r at the polls index.")
+    num_books = Book.objects.all().count()
+    num_instances = BookInstance.objects.all().count()
+    num_instances_available = BookInstance.objects.filter(status__exact='a').count()
+    num_authors = Author.objects.count()
+
+    context = {
+        'num_books': num_books,
+        'num_instances': num_instances,
+        'num_instances_available': num_instances_available,
+        'num_authors': num_authors,
+    }
+
+    return render(request, 'index.html', context=context)
