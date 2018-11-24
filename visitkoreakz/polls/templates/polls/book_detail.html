@@ -3,7 +3,7 @@
 {% block content %}
     <h1>Title: {{ book.title }}</h1>
 
-    <p>Author: <a href="#">{{ book.author }}</a></p>
+    <p>Author: <a href="{{ author.id}}">{{ author.id }} - {{ book.author }}</a></p>
     <p>Summary: {{ book.summary }}</p>
     <p>ISBN: {{ book.isbn }}</p>
 

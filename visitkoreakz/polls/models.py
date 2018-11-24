@@ -51,12 +51,12 @@ class BookInstance(models.Model):
         help_text='Book availability',
     )
 
-
     class Meta:
         ordering = ['due_back']
 
     def __str___(self):
         return f'{self.id} ({self.book.title})'
+
 
 class Author(models.Model):
     first_name = models.CharField(max_length=100)

@@ -6,7 +6,7 @@
     <ul>
         {% for author in author_list %}
         <li>
-            <a href="{{ author.get_absolute_url }}">{{ author.last_name }}</a> ({{ author.first_name }} <a href="{{ book.get_absolute_url }}">{{ book.id }}</a>)
+            <a href="{{ author.get_absolute_url }}">{{ author.last_name }}, {{ author.first_name }} ( {{author.date_of_birth }} - {{ author.date_of_death }})</a>
         </li>
         {% endfor %}
     </ul>
@@ -32,7 +32,7 @@
 
 
     {% else %}
-        <p>There are no books in the library.</p>
+        <p>There are no Authors in the library.</p>
     {% endif %}
 
 {% endblock %}
