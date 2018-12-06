@@ -2,12 +2,6 @@ from django.shortcuts import render
 from polls.models import Book, Author, BookInstance, Genre
 from django.views import generic
 from django.shortcuts import get_object_or_404
-from django.contrib.auth.mixins import LoginRequiredMixin
-import datetime
-from django.contrib.auth.decorators import permission_required
-from django.http import HttpResponseRedirect
-from django.urls import reverse
-from polls.forms import RenewBookForm
 
 
 def index(request):
@@ -28,6 +22,7 @@ def index(request):
 
     return render(request, 'index.html', context=context)
 
+
 class BookListView(generic.ListView):
     model = Book
     paginate_by = 10
@@ -44,11 +39,3 @@ class BookDetailView(generic.DetailView):
 class AuthorListView(generic.ListView):
     model = Author
     paginate_by = 10
-
-
-class AuthorDetailView(generic.DetailView):
-    model = Author
-
-    def author_detail_view(request, primary_key):
-        author = get_object_or_404(Author, pk=primary_key)
-        return render(request, 'polls/author_detail.html', context={'author': author})

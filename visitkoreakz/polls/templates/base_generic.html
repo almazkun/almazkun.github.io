@@ -6,17 +6,18 @@
 
     {% block title %}<title>Обучение в Корее</title>{% endblock %}
 
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     {% load static %}
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
     </head>
-        <body class="container-fluid">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+    <body>
+
+        <div id="navigation" class="bg-danger text-white sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light container">
                 <a class="navbar-brand text-chicle" href="#">Visitkorea.kz</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,35 +47,25 @@
                     </ul>
                 </div>
             </nav>
+        </div>
+
         <main>
-            <section class="jumbotron bg-danger text-white radius-0 mb-0">
-                <div class="container">
-                    <h1 class="display-1 text-chicle text-light">Обучение в Корее</h1>
-                    <span class="lead text-light">This is a starter template with a jumbotron</span>
 
-                    <div class="mt-4">
-                        <a href="#!" class="btn btn-light btn-lg my-2 mr-2 btn-wide text-danger">
-                            <span>Button</span>
-                        </a>
-
-                        <a href="#!" target="_blank" class="btn btn-outline-light btn-lg my-2 btn-wide btn-hover-text-danger">
-                            <span>Another Button</span>
-                        </a>
-                    </div>
-                </div>
+            <section class="bg-danger p-1">
+                    <h1 class="container display-4 text-chicle text-light">Обучение в Корее</h1>
             </section>
             <section class="container">
 
                 <div class="row">
-                    <div class="col-sm-2">
+                    <div class="col-md-2">
                         {% block sidebar %}
                             <ul class="sidebar-nav">
                                 <li><a href="{% url 'index' %}">Home</a></li>
                                 <li><a href="{% url 'books' %}">All books</a></li>
-                                <li><a href="{% url 'authors' %}">All authors</a></li>
+                                <li><a href="#">All authors</a></li>
                                 {% if user.is_authenticated %}
                                 <li>User: {{ user.get_username }}</li>
-                                <li><a href="{% url 'my-books' %}">My Borrowed</a></li>
+                                <li><a href="#">My Borrowed</a></li>
                                 <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
                                 {% else %}
                                 <li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>
@@ -82,10 +73,69 @@
                             </ul>
                         {% endblock %}
                     </div>
+                    <div class="col-md-10">
+                        {% block content %}
+
+                        {% endblock %}
+                    </div>
                 </div>
 
             </section>
         </main>
+
+        <footer id="footer" class="small bg-dark">
+            <div class="footer content ">
+                <div class="grid">
+                    <div class="row c-center">
+                        <div class="col-4">
+                            <a class="c-footer-logo" href="http://www.groof.kz" title="Официальный представитель ведущих клиник в Южной Корее"></a>
+                        </div>
+                        <div class="col-8 px-4">
+                            <p class="m-0 font-weight-bold">GOLDEN ROOF</p>
+                            <p class="m-0">Medical Tour Partners</p>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div>
+                        <p class="font-italic">Ваш персональный путеводитель к здоровью</p>
+                        <p>Организовываем лечение в <span class="font-weight-bold">Южной Корее.</span></p>
+                        <p>Официальное представительство госпиталей Южной Кореи в Казахстане.</p>
+
+                    </div>
+                    <div>
+                        <h5>Виды лечения</h5>
+                        <p>Хирургическое лечение</p>
+                        <p>Пластические операции</p>
+                        <p>Стоматологическое лечение</p>
+                        <p>Комплексное обследование организма (Check-Up)</p>
+                    </div>
+                    <div>
+                        <h5>Услуги</h5>
+                        <p>Организация лечения</p>
+                        <p>Подбор клиники</p>
+                        <p>Запрос стоимости</p>
+                        <p>Встреча в Аэропорту</p>
+                        <p>Бронирование перелета</p>
+                        <p>Предоставление проживания</p>
+                    </div>
+
+
+                    <div>
+                        <h5>Контакты</h5>
+                        <p><a class="a-footer" href="https://api.whatsapp.com/send?phone=77059110086&text=Меня%20инересует%20лечение%20в%20Южной%20Корее." title="Напишите нам на WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i> +7 705 911 0086</span></a></p>
+                        <p><a class="a-footer" href="mailto:hello@groof.kz" title="Наш адрес электронной почты"><i class="fas fa-envelope" aria-hidden="true"></i> hello@groof.kz</a></p>
+                        <p><a class="a-footer" href="http://www.groof.kz">165-1 Amco Heritz, Jeongja dong, Bundang-gu, Seongnam City, Gyeonggi<br/><span class="font-weight-bold">Republic of Korea</span></a></p>
+                        <p><a class="a-footer" href="http://www.groof.kz">Политика конфиденциальности</a></p>
+                        <p><a class="a-footer" href="http://www.groof.kz">Copyright &copy; 2014 - 2019 Golden Roof Medical Tour Partners</a></p>
+                        <p><a class="a-footer" href="http://www.groof.kz">Proudly made by <span class="font-weight-bold">42</span></a></p>
+                    </div>
+                </div>
+                <div id="end"><a class="a-footer" href="#top">Вверх</a></div>
+            </div>
+        </footer>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

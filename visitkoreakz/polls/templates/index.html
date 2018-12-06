@@ -1,6 +1,8 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
+  <h1>Организовываем обучение в Корее</h1>
+
   <ul>
     <li><strong>Books:</strong> {{ num_books }}</li>
     <li><strong>Copies:</strong> {{ num_instances }}</li>
@@ -11,3 +13,4 @@
   <p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
 
 {% endblock %}
+
