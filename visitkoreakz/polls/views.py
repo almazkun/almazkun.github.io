@@ -18,6 +18,7 @@ def index(request):
         'num_instances_available': num_instances_available,
         'num_authors': num_authors,
         'num_visits': num_visits,
+
     }
 
     return render(request, 'index.html', context=context)
@@ -25,7 +26,7 @@ def index(request):
 
 class BookListView(generic.ListView):
     model = Book
-    paginate_by = 100
+    paginate_by = 10
 
 
 class BookDetailView(generic.DetailView):
@@ -39,3 +40,13 @@ class BookDetailView(generic.DetailView):
 class AuthorListView(generic.ListView):
     model = Author
     paginate_by = 10
+
+
+class AuthorDetailView(generic.DetailView):
+    model = Author
+
+    def author_detail_view(request, primary_key):
+        author = get_object_or_404(Author, pk=primary_key)
+        return render(request, 'polls/author_detail.html', context-{'author': author})
+
+

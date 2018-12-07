@@ -6,7 +6,7 @@
     <ul>
         {% for book in book_list %}
         <li style="word-wrap:break-word;">
-            <a href="{{ book.get_absolute_url }}">{{ book.title }}</a> ({{ book.author }} <a href="{{ book.get_absolute_url }}">{{ book.id }}</a>)
+            <a href="{{ book.get_absolute_url }}">{{ book.title }}</a> ({{ book.author }}<a href="{{ book.get_absolute_url }}"></a>)
         </li>
         {% endfor %}
     </ul>
@@ -17,13 +17,13 @@
                 <div class="pagination">
                     <span class="page-links">
                         {% if page_obj.has_previous %}
-                        <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">previous</a>
+                        <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">Previous</a>
                         {% endif %}
                         <span class="page-current">
                         <p>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</p>
                         </span>
                         {% if page_obj.has_next %}
-                        <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">next</a>
+                        <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">Next</a>
                         {% endif %}
                     </span>
                 </div>
