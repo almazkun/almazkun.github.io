@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    {% block title %}<title>Обучение в Корее</title>{% endblock %}
+    <title>{% block title %}Обучение в Корее{% endblock %}</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -17,7 +17,7 @@
     <body>
 
         <div id="navigation" class="bg-danger text-white sticky-top">
-            <nav class="navbar navbar-expand-lg navbar-light container">
+            <nav class="container navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand text-chicle" href="#">Visitkorea.kz</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,11 +49,16 @@
             </nav>
         </div>
 
-        <main>
-
+        <header>
             <section class="bg-danger p-1">
-                    <h1 class="container display-4 text-chicle text-light">Обучение в Корее</h1>
+
+                <h1 class="container display-4 text-chicle text-light">Обучение в Корее</h1>
+
             </section>
+        </header>
+
+        <main style="min-height:70vh; margin-top:2em; margin-bottom:2em;">
+
             <section class="container">
 
                 <div class="row">
@@ -83,56 +88,31 @@
             </section>
         </main>
 
-        <footer id="footer" class="small bg-dark">
-            <div class="footer content ">
-                <div class="grid">
-                    <div class="row c-center">
-                        <div class="col-4">
-                            <a class="c-footer-logo" href="http://www.groof.kz" title="Официальный представитель ведущих клиник в Южной Корее"></a>
-                        </div>
-                        <div class="col-8 px-4">
-                            <p class="m-0 font-weight-bold">GOLDEN ROOF</p>
-                            <p class="m-0">Medical Tour Partners</p>
-                        </div>
-                    </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div>
-                        <p class="font-italic">Ваш персональный путеводитель к здоровью</p>
-                        <p>Организовываем лечение в <span class="font-weight-bold">Южной Корее.</span></p>
-                        <p>Официальное представительство госпиталей Южной Кореи в Казахстане.</p>
+        <footer style="min-height:10vh;" class="small bg-dark text-white">
+            <div class="container">
 
+                <div class="row py-4">
+                    <div class="col-md-3">
+                        <h4>Компания</h4>
+                        <p>О нас</p>
                     </div>
-                    <div>
-                        <h5>Виды лечения</h5>
-                        <p>Хирургическое лечение</p>
-                        <p>Пластические операции</p>
-                        <p>Стоматологическое лечение</p>
-                        <p>Комплексное обследование организма (Check-Up)</p>
-                    </div>
-                    <div>
+                    <div class="col-md-3">
                         <h5>Услуги</h5>
-                        <p>Организация лечения</p>
-                        <p>Подбор клиники</p>
-                        <p>Запрос стоимости</p>
-                        <p>Встреча в Аэропорту</p>
-                        <p>Бронирование перелета</p>
-                        <p>Предоставление проживания</p>
+                        <p>Обучение в Корее</p>
                     </div>
-
-
-                    <div>
-                        <h5>Контакты</h5>
-                        <p><a class="a-footer" href="https://api.whatsapp.com/send?phone=77059110086&text=Меня%20инересует%20лечение%20в%20Южной%20Корее." title="Напишите нам на WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i> +7 705 911 0086</span></a></p>
-                        <p><a class="a-footer" href="mailto:hello@groof.kz" title="Наш адрес электронной почты"><i class="fas fa-envelope" aria-hidden="true"></i> hello@groof.kz</a></p>
-                        <p><a class="a-footer" href="http://www.groof.kz">165-1 Amco Heritz, Jeongja dong, Bundang-gu, Seongnam City, Gyeonggi<br/><span class="font-weight-bold">Republic of Korea</span></a></p>
-                        <p><a class="a-footer" href="http://www.groof.kz">Политика конфиденциальности</a></p>
-                        <p><a class="a-footer" href="http://www.groof.kz">Copyright &copy; 2014 - 2019 Golden Roof Medical Tour Partners</a></p>
-                        <p><a class="a-footer" href="http://www.groof.kz">Proudly made by <span class="font-weight-bold">42</span></a></p>
+                    <div class="col-md-3">
+                        <h6>Контакты</h6>
+                        <p>г. Алматы, ул. Айманова д. 68</p>
+                        <p><a></a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Контакты</h6>
+                        <p>г. Алматы, ул. Айманова д. 68</p>
+                        <p><a></a></p>
                     </div>
                 </div>
-                <div id="end"><a class="a-footer" href="#top">Вверх</a></div>
+
+                <a class="text-white" href="#top"><div class="btn btn-block"><i class="fas fa-chevron-up"></i></div></a>
             </div>
         </footer>
 

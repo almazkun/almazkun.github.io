@@ -5,7 +5,7 @@
     {% if book_list %}
     <ul>
         {% for book in book_list %}
-        <li>
+        <li style="word-wrap:break-word;">
             <a href="{{ book.get_absolute_url }}">{{ book.title }}</a> ({{ book.author }} <a href="{{ book.get_absolute_url }}">{{ book.id }}</a>)
         </li>
         {% endfor %}
