@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-from 
+from django.urls import include
 
 
 urlpatterns = [
@@ -10,4 +10,5 @@ urlpatterns = [
     path('author/', views.AuthorListView.as_view(), name='author'),
     path('author/<int:pk>', views.AuthorDetailView.as_view(), name='author-detail'),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('mybooks/', views.LoanedBooksByUserListView.as_view(), name='my-borrowed'),
 ]

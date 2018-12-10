@@ -54,18 +54,18 @@ class BookInstance(models.Model):
         help_text='Book availability',
     )
 
+    @property
+    def is_overdue(self):
+        if self.due_back and date.today() > self.due_back:
+            return True
+        return False
+
     class Meta:
         ordering = ['due_back']
         permissions = (("can_mark_returned", "Set book as returned"),)
 
     def __str___(self):
         return f'{self.id} ({self.book.title})'
-
-    @property
-    def is_overdue(self):
-        if self.due_back and date.today() > self.due_back:
-            return True
-        return False
 
 
 class Author(models.Model):
@@ -82,3 +82,4 @@ class Author(models.Model):
 
     def __str__(self):
         return f'{self.last_name}, {self.first_name}'
+
