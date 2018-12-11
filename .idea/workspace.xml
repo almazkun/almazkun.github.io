@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c082867b-d28e-41df-860e-db4d4856ec6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/visitkoreakz/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/visitkoreakz/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visitkoreakz/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/visitkoreakz/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visitkoreakz/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/visitkoreakz/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visitkoreakz/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/visitkoreakz/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,119 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#176#319#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding>
-                <element signature="n#button#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="59" column="117" selection-start-line="59" selection-start-column="117" selection-end-line="59" selection-end-column="117" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/author_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/base_generic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="63" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_detail.html">
+        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/tests/test_model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
+              <caret selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -137,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -179,18 +68,20 @@
         <option value="$PROJECT_DIR$/visitkoreakz/templates/registration/logged_out.html" />
         <option value="$PROJECT_DIR$/visitkoreakz/visitkoreakz/settings.py" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/admin.py" />
-        <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/polls/bookinstance_list_borrowed_user.html" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/forms.py" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_renew_librarian.html" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/index.html" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_list.html" />
-        <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/base_generic.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_detail.html" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/polls/author_detail.html" />
-        <option value="$PROJECT_DIR$/visitkoreakz/polls/models.py" />
-        <option value="$PROJECT_DIR$/visitkoreakz/polls/views.py" />
         <option value="$PROJECT_DIR$/visitkoreakz/polls/urls.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/polls/bookinstance_list_borrowed_user.html" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/views.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/templates/base_generic.html" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/models.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/visitkoreakz/polls/tests/test_model.py" />
       </list>
     </option>
   </component>
@@ -224,6 +115,34 @@
               <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
               <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almazkun.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+              <item name="visitkoreakz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="almazkun.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python37-32" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,13 +151,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="E:/_groof.kz/v0.002.201810/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/visitkoreakz/polls/tests" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/visitkoreakz/polls/tests" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\github\almazkun.github.io\visitkoreakz\polls\templates\polls" />
       <recent name="E:\github\almazkun.github.io\visitkoreakz\polls" />
+      <recent name="E:\github\almazkun.github.io\visitkoreakz\visitkoreakz" />
+      <recent name="E:\github\almazkun.github.io\visitkoreakz" />
+      <recent name="E:\github\almazkun.github.io\visitkoreakz\visitkoreakz\polls" />
+      <recent name="E:\github\almazkun.github.io\visitkoreakz\polls\templates\polls" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\github\almazkun.github.io\visitkoreakz\polls\static\css" />
@@ -256,6 +179,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unittests for visitkoreakz.polls.tests.test_model.YourTestClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="almazkun.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visitkoreakz/polls/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;visitkoreakz.polls.tests.test_model.YourTestClass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for visitkoreakz.polls.tests.test_model.YourTestClass" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -269,22 +213,32 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_model_YourTestClass - 2018.12.11 at 15h 18m 30s.xml">
+      <configuration name="Unittests for test_model.YourTestClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_model_YourTestClass - 2018.12.11 at 15h 19m 17s.xml">
+      <configuration name="Unittests for test_model.YourTestClass" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_model_YourTestClass - 2018.12.11 at 15h 19m 26s.xml">
+      <configuration name="Unittests for test_model.YourTestClass" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39170507" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.9969278" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -395,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/bookinstance_list_borrowed_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_renew_librarian.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -487,21 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/base_generic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="63" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -512,20 +444,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/author_detail.html">
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="23" />
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/book_detail.html">
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/bookinstance_list_borrowed_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="314">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/polls/author_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -545,13 +494,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/models.py">
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/templates/base_generic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="187">
+          <caret line="72" column="65" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#176#319#0" />
           </folding>
         </state>
       </provider>
@@ -559,30 +522,34 @@
     <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/views.py">
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="59" column="117" selection-start-line="59" selection-start-column="117" selection-end-line="59" selection-end-column="117" />
+        <state relative-caret-position="249">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#176#319#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/urls.py">
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitkoreakz/polls/tests/test_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-column="32" />
         </state>
       </provider>
     </entry>
