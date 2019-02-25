@@ -1,0 +1,66 @@
+img.logo-sm {
+    height: 1.5em;
+}
+
+img.logo-md {
+    height: 5em;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+.navbar {
+    padding: inherit;
+}
+
+.jumbotron {
+    background-color: inherit;
+    margin-bottom:0;
+}
+
+.display-5 {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+#intro {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/static/images/p.jpg');
+    min-height: 100%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+.bg-black {
+    background-color: #050500;
+}
+
+.btn-block {
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    max-width: 200px;
+    border-radius: 50px;
+}
+
+.c-btn-wide {
+    width: 100%;
+    margin:  0.25rem;
+}
