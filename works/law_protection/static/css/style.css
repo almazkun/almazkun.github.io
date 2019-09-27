@@ -1,0 +1,78 @@
+a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+    transition: text-color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none;
+}
+.jumbotron {
+    background-color: transparent;
+}
+#intro {
+    background-color: #000375;
+    background-image: linear-gradient(-5deg,#326B83, #000375);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-dblue {
+    background-color: #000375;
+    background-image: linear-gradient(-5deg,#101375, #000375);
+}
+.text-dblue {
+    color: #004e89;
+}
+.bg-dred {
+    background-color: #87001b;
+}
+.text-dred {
+    color: #87001b;
+}
+#btn-danger {
+    background-color: #87001b;
+    border-color: #87001b;
+}
+.bg-dark {
+    background-color: #19323c;
+}
+#cor {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.display-5 {
+    font-size: 2rem;
+}
+
+@media (min-width:576px) {
+    .display-5 {
+        font-size: 3rem;
+    }
+}
+
+img.logo {
+    height: 1.5rem;
+}
+
+img.logo-big {
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-wide {
+    width: 150px;
+    margin-bottom: 0.5em;
+}
+.navbar {
+    padding: .1rem 1rem;
+}
+@media (min-width:576px) {
+    .btn-wide {
+        width: 200px;
+    }
+    .navbar {
+    padding: .5rem 1rem;
+    }
+}
+
+
