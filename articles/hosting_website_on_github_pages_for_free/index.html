@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Almaz Kunpeissov | Software Engineer | Python | Portfolio.</title>
+    <meta name="description"
+        content="Portfolio of Almaz Kunpeissov, Python Software Engineer. Python/Django, PostgreSQL, Docker, Redis, Nginx, Gunicorn." />
+    <meta name="keywords" content="Python/Django, PostgreSQL, Docker, Redis, Nginx, Gunicorn." />
+
+
+    <!-- Favicon -->
+    <link rel="manifest" href="/staticfiles/images/fav/site.webmanifest">
+    <link rel="mask-icon" href="/staticfiles/images/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="/staticfiles/images/fav/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/staticfiles/images/fav/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/staticfiles/images/fav/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/staticfiles/images/fav/favicon-32x32.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/staticfiles/images/fav/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<style>
+    img {
+        max-width: 100%;
+    }
+
+    h2 {
+        margin-top: 3rem !important;
+    }
+</style>
+
+<body class="container" style="max-width: 610px; margin: 0 auto;">
+
+
+    <div class="d-flex ">
+        <a class="nav-link pl-0 mt-5" href="/" title="Almaz Kunpeissov, Software Engineer, Python, portfolio"><img
+                class="img img-fluid" style="height:3.5rem"
+                src="https://almazkun.github.io/static/android-chrome-512x512.png"></a>
+        <a class="nav-link pl-0 mt-5 lead align-self-center" href="/articles/" title="Articles">Articles</a>
+    </div>
+
+
+
+
+
+    <div class="my-4 container c-article-body p-0">
+        <div class="">
+            <h1 class="display-4">Hosting website on GitHub pages for FREE</h1>
+            <p class="lead">There are many options for hosting your static website. There are even completely free ones.
+                Among them I&#x27;ve found the Github pages the best free hosting for a static website. This is a
+                instruction on how to host your website on GitHub pages for FREE.</p>
+            <p class="text-muted"> Apr 21, 2020</p>
+            <div class="my-5">
+                <h2>1. Sing Up to <a href="github.com">Github.com</a> and create repository.</h2>
+                <p>We need to create account on <a href="github.com">Github.com</a> and create new repository of special
+                    type.</p>
+                <ul>
+                    <li>Go to <code>https://github.com</code>, hit <code>Sign up</code> and complete the registration.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/1.png"
+                            title="GitHub sign Up" /></li>
+                    <li>After confirming the email address you will be redirected to the page for creating a
+                        <code>new repository</code>.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/7.png"
+                            title="Create new repository" /></li>
+                    <li>
+                        <p>Create new repository.</p>
+                        <ul>
+                            <li>Repository name should be: <code>*github_login*.github.io</code>, where
+                                <em>github_login</em> is User name you have chosen. You can see it also in a field
+                                called <code>Owner</code>. In my case the repository name should be
+                                <code>focuskeeperdotapp.github.io</code>.</li>
+                            <li>Choose <code>Public</code>.</li>
+                            <li>Check the <code>Initialize with a README</code></li>
+                            <li>Hit <code>Create Repository</code></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Check if it is working. Navigate to the <code>*github_login*.github.io</code> and you must
+                            see the greeting page. If you see <code>404</code> error or anything else, delete the
+                            repository and start all over. Check the name of the repository, it should be exactly like
+                            your login and followed by <code>.github.io</code>.</p>
+                    </li>
+                </ul>
+                <p><img alt="alt text"
+                        src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/8.png"
+                        title="Check the new GitHub pages website" /></p>
+
+                <h2>2. Adding HTML website.</h2>
+                <p>Now we need to create a website you want to host on the internet. We can clone this repository to our
+                    computer and make changes to it or we can do it in the browser. For demonstration purposes we will
+                    start with a browser.</p>
+                <ul>
+                    <li>On the page of the repository, push <code>Create new file</code> button.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/11.png"
+                            title="Create New File" /></li>
+                    <li>Enter the name of the file: <code>index.html</code>.</li>
+                    <li>Copy &amp; Paste the following code:</li>
+                </ul>
+                <pre><code class="html">&lt;!DOCTYPE html&gt;
+                    &lt;html lang=&quot;en&quot;&gt;
+                        &lt;head&gt;
+                            &lt;!-- Required meta tags --&gt;
+                            &lt;meta charset=&quot;utf-8&quot;&gt;
+                            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+                            &lt;title&gt;How to host a website on GitHub pages for FREE&lt;/title&gt;
+                            &lt;!-- Stylesheets --&gt;
+                            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh&quot; crossorigin=&quot;anonymous&quot;&gt;
+                        &lt;/head&gt;
+
+                        &lt;body class=&quot;bg-light&quot;&gt;
+                            &lt;div class=&quot;m-4&quot;&gt;
+                                &lt;div class=&quot;jumbotron&quot;&gt;
+                                    &lt;div class=&quot;container&quot;&gt;
+                                        &lt;div class=&quot;row&quot;&gt;
+                                            &lt;div class=&quot;col-xl-8&quot;&gt;
+                                                &lt;h1 class=&quot;display-1 display-fix&quot;&gt;Awesome&lt;/h1&gt;
+                                                &lt;span class=&quot;lead&quot;&gt;My New and Awesome website hosted on GitHub pages&lt;/span&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+
+                                &lt;div class=&quot;container py-5&quot;&gt;
+                                    &lt;h2 class=&quot;display-4&quot;&gt;Thanks&lt;/h2&gt;
+                                    &lt;p class=&quot;lead&quot;&gt;Thank you for reading this instruction&lt;br&gt;
+                                        &lt;a href=&quot;https://akun.dev&quot;&gt;https://akun.dev&lt;/a&gt;
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </code></pre>
+
+                <ul>
+                    <li>Commit this file to the repository.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/12.png"
+                            title="Commit new changes" /></li>
+                    <li>Open navigate to the <code>*github_login*.github.io</code>. You will see newly created website!
+                        Congratulations!
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/15.png"
+                            title="It is live!" /></li>
+                </ul>
+                <h1></h1>
+                <h2>3. Buy your domain name.</h2>
+                <p>Adding custom domain name to the GitHub pages is quite easy too. We need to buy one first. You can
+                    buy it from whatever registrar you want. I like <a
+                        href="https://github.com/almazkun/ins_GH_hosting/https://porkbun.com/">Porkbun</a> registrar.
+                </p>
+                <ul>
+                    <li>Go to <a href="https://porkbun.com/">Porkbun.com</a>.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/16.png"
+                            title="Here is to found!" /></li>
+                    <li>Find a desired domain name. I wanted to buy <code>focuskeeper.app</code>.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/17.png"
+                            title="It might be unavailable" /></li>
+                    <li>Click <code>+</code>, register and pay for the domain name you want.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/20.png"
+                            title="Cash out!" /></li>
+                </ul>
+                <h1></h1>
+                <h2>4. Setting up custom domain name for GitHub pages.</h2>
+                <p>Now we will point the your new domain to the GitHub pages.</p>
+                <ul>
+                    <li>
+                        <p>Navigate to the repository page on <a href="https://github.com">Github</a>. It should be:
+                            <code>https://github.com/*github_login*/*github_login*.github.io</code> and open
+                            <code>Settings</code> tab.
+                            <img alt="alt text"
+                                src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/31.png"
+                                title="Settings" /></p>
+                    </li>
+                    <li>
+                        <p>Scroll down to the <code>GitHub pages</code> section and add your newly purchased domain name
+                            to the <em>Custom domain</em> field.
+                            <img alt="alt text"
+                                src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/32.png"
+                                title="Add custom domain" /></p>
+                    </li>
+                </ul>
+                <h1></h1>
+                <h2>5. Cloudflare DNS records.</h2>
+                <p>We need to add new DNS records for our domain. For a number of reasons I like <a
+                        href="https://cloudflare.com">Cloudflare</a> for that purposes.</p>
+                <ul>
+                    <li>Go to the <a href="https://cloudflare.com">cloudflare.com</a> and register there.</li>
+                    <li>Add <code>New Site</code>. Type your domain name in the form</li>
+                    <li>Select <code>Free</code> plan.</li>
+                    <li>Now we need to delete <strong>all</strong> the DNS record here.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/34.png"
+                            title="Delete old DNS records" /></li>
+                    <li>
+                        <p>And add DNS records we need. In the table below is how you need to type them in the empty
+                            field. They will be displayed little differently after you hit <code>Add Record</code>
+                            button. </p>
+                        <p>
+                            <table>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Name</th>
+                                    <th>Value</th>
+                                </tr>
+                                <tr>
+                                    <td>A</td>
+                                    <td>@</td>
+                                    <td>185.199.108.153</td>
+                                </tr>
+                                <tr>
+                                    <td>A</td>
+                                    <td>@</td>
+                                    <td>185.199.109.153</td>
+                                </tr>
+                                <tr>
+                                    <td>A</td>
+                                    <td>@</td>
+                                    <td>185.199.110.153</td>
+                                </tr>
+                                <tr>
+                                    <td>A</td>
+                                    <td>@</td>
+                                    <td>185.199.111.153</td>
+                                </tr>
+                                <tr>
+                                    <td>CNAME</td>
+                                    <td>www</td>
+                                    <td>@</td>
+                                </tr>
+                            </table>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Press <code>Continue</code>.
+                            <img alt="alt text"
+                                src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/35.png"
+                                title="Add new ones" /></p>
+                    </li>
+                    <li>
+                        <p>Now we need to change <code>nameservers</code> on our registrar website(where you bought the
+                            domain name).
+                            <img alt="alt text"
+                                src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/36.png"
+                                title="Nameservers" /></p>
+                    </li>
+                    <li>Go to <a href="https://porkbun.com/">Porkbun.com</a>. Open <code>Details</code> dropdown, find
+                        <code>AUTHORITATIVE NAMESERVERS</code>, click <code>Edit</code>.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/37.png"
+                            title="Add new ones" /></li>
+                    <li>Delete old records and add assigned by the <code>Cloudflare</code>.
+                        <img alt="alt text"
+                            src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/38.png"
+                            title="Add new ones" /></li>
+                    <li>Go to the <a href="https://cloudflare.com">cloudflare.com</a> and click
+                        <code>Done, check nameservers</code>. </li>
+                    <li>
+                        <p>Here</p>
+                        <ul>
+                            <li>check <code>Full</code> encryption</li>
+                            <li><code>ON</code> to <code>Always Use HTTPS</code> </li>
+                            <li>choose to minify everything</li>
+                            <li><code>ON</code> to Brotli</li>
+                            <li><code>Done</code></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>It will take a sometime (they say up to 24 hrs) to change DNS record.
+                            <img alt="alt text"
+                                src="https://raw.githubusercontent.com/almazkun/ins_GH_hosting/master/static/images/39.png"
+                                title="Done" /></p>
+                    </li>
+                </ul>
+                <h1></h1>
+                <h2>Done</h2>
+                <p>We are actually done. We deployed a website to the internet without leaving a browser. Thank you!</p>
+                <h1></h1>
+                <hr />
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer id="footer" class="my-5">
+        <a class="lead nav-link px-0" href="https://github.com/almazkun" target="_blank" title="My Github profile"><i
+                class="fab fa-github"></i> github.com/almazkun</a>
+        <a class="lead nav-link px-0" href="https://www.linkedin.com/in/almaz-kunpeissov-7775b541/" target="_blank"
+            title="My LinkedIn page"><i class="fab fa-linkedin-in"></i> linkedin.com/in/almaz-kunpeissov-7775b541</a>
+        <a class="lead nav-link px-0"
+            href="https://almazkun.github.io/static/A_Kunpeissov_Software_Engineer_Python_CV_ENG_2020_web.docx"
+            target="_blank" title="My Resume(CV)"><span class="font-weight-bold">CV</span> Resume(CV).docx</a>
+        <a class="lead nav-link px-0" href="mailto:hello@akun.dev"
+            title="Completely novel way to contact a person on the Internet: write an email!"><i class="fas fa-at"></i>
+            hello@akun.dev</a>
+        <a class="display-4 nav-link px-0 pb-4" href="#"><i class="fas fa-angle-up"></i></a>
+        <p class="nav-link px-0 lead">Copyright &copy; 2020, <a class="" href="https://akun.dev">akun.dev</a></p>
+    </footer>
+
+
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Icons from https://fontawesome.com/-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!--Custom Stylesheets-->
+    <link rel="stylesheet" href="https://almazkun.github.io/static/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162961682-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162961682-1');
+    </script>
+
+
+</body>
+
+</html>
