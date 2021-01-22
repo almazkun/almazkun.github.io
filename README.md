@@ -5,3 +5,9 @@
 
 
 > Make software great again.
+
+
+> It isn’t important to get everything right the first time; it’s important to get it right in the end.
+
+
+> Ungrammarly: The highest degree of bestestness!
