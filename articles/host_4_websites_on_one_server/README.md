@@ -111,3 +111,30 @@ server {
 ## SSL for domain three:
 1. `sudo certbot --nginx -d domain.three -d www.domain.three`
 
+## Setting up Django site (domain four)
+1. `mkdir /var/www/domain.four`
+2. `git clone https://github.com/domainfour/domainfour.github.io.git /var/www/domain.four/html`
+4. `sudo chmod -R 755 /var/www/domain.four`
+5. `sudo nano /etc/nginx/sites-available/domain.four
+```
+# /etc/nginx/sites-available/domain.four
+
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name domain.three www.domain.four;
+
+    location /static/ {
+            alias /var/www/domain.four/html/staticfiles;
+    }
+    
+    location @proxy_to_app {
+        proxy_redirect     off;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+        proxy_pass http://127.0.0.1:8001;
+    }
+}
