@@ -1,6 +1,16 @@
 # How host 4 Website on one server
 How to host 4 websites on one Ubuntu 18.04 server
 
+## Prerequisites
+**A** type **DNS** records should point to your servers'public IP address.
+
+Like:
+Name | Type | Value
+---|---|---
+domain.one | A | 111.222.333.444
+www.domain.one | A | 111.222.333.444
+
+
 1. `sudo apt-get update && sudo apt-get upgrade -y`
 2. `sudo apt-get install nginx -y`
 3. `systemctl status nginx`
@@ -115,26 +125,27 @@ server {
 1. `mkdir /var/www/domain.four`
 2. `git clone https://github.com/domainfour/domainfour.github.io.git /var/www/domain.four/html`
 4. `sudo chmod -R 755 /var/www/domain.four`
-5. `sudo nano /etc/nginx/sites-available/domain.four
+5. `sudo nano /etc/nginx/sites-available/domain.four`
+
 ```
-# /etc/nginx/sites-available/domain.four
-
+upstream app {
+    server 127.0.0.1:8001;
+  }
 server {
-    listen 80;
-    listen [::]:80;
+    server_name domain.four domain.four;
 
-    server_name domain.three www.domain.four;
-
-    location /static/ {
-            alias /var/www/domain.four/html/staticfiles;
-    }
-    
-    location @proxy_to_app {
+    location / {
         proxy_redirect     off;
         proxy_set_header   Host $host;
         proxy_set_header   X-Real-IP $remote_addr;
         proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header   X-Forwarded-Host $server_name;
-        proxy_pass http://127.0.0.1:8001;
+        proxy_pass app;
     }
 }
+```
+6. `sudo ln -s /etc/nginx/sites-available/domain.four /etc/nginx/sites-enabled/`
+7. `sudo nginx -t`
+8. `sudo systemctl restart nginx`
+9. `gunicorn django_project.wsgi:application --bind 127.0.0.1:8001 --deamon`
+10. `curl http://domain.four`
