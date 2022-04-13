@@ -10,6 +10,6 @@
 * [Django and translations](https://github.com/almazkun/django-translation-bug)
 * [Django and DB logging](https://github.com/almazkun/django-db-logs)
 
-When having hard time to remember `null=True, blank=True`:
+## When a having hard time to remember `null=True, blank=True`:
 ![alt text](TMMej.png)
 ![alt text](gUanA.png)
