@@ -15,4 +15,8 @@
 
 > Traceback follow you must my young pythonista.
 
-> Sometimes you need to take a sword and sort things out
+
+> Sometimes you need to take a sword and sort things out.
+
+
+> W hen you have a Python everything is a Python script.
