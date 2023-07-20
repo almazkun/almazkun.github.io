@@ -1,4 +1,4 @@
-{% \raw %}
+<!-- {% raw %} -->
 # Django Jeonse Calculator
 Source code for Pycon Korea 2023 Tutorial
 
@@ -571,5 +571,4 @@ In this tutorial, we will build a rental listing website using Django, a popular
     1. Run server: `python manage.py runserver`
     1. Open browser and go to `http://localhost:8000/`: `open http://localhost:8000/`
 
-
-{% \endraw %}
+<!-- {% endraw %}) -->
