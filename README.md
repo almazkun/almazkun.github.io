@@ -1,5 +1,5 @@
 # Links
-* [Pycon KR 2023 Tutorial](/pycon-tutorial/)
+* [Pycon KR 2023 Tutorial](https://blog/akun.dev/pycon-tutorial/)
 
 
 # Some Quotes
