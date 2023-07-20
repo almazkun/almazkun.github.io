@@ -14,13 +14,13 @@ To enhance the search functionality, we will utilize django-filter to create adv
 Throughout the tutorial, we will provide clear and concise instructions, accompanied by code examples and demonstrations of each package's usage. By the end of the tutorial, you will have a fully functional rental listing website that showcases the power of Django and its community packages in creating modern, fast, and feature-rich web applications.
 
 ## Tutorial outline:
-1. Introduction
+1. [Introduction](#1-introduction)
     * Overview of the tutorial
     * Explanation of the application's purpose and functionality
-1. Prerequisites
+1. [Prerequisites](#2-prerequisites)
     * Django installation
     * Basic understanding of Django and Python
-1. Setting up the Project
+1. [Setting up the Project](#3-setting-up-the-project)
     * Creating a new Django project
     * Creating a new Django app for rental listings
     * Install Python 3.8+ and Django 4.2
@@ -29,12 +29,15 @@ Throughout the tutorial, we will provide clear and concise instructions, accompa
     * Create User Signup and Signin Views
     * Create Listing Model and Views
     * Configuring URL patterns for different views
-1. User Authentication and Permissions
+1. [User Authentication and Permissions](#4-user-authentication-and-permissions)
     * Restricting views and actions to authenticated users
     * Restricting views and actions to listing owners
-1. Styling with CSS
+1. [Styling with Bootstrap](#5-styling-with-bootstrap)
     * Adding CSS stylesheets to enhance the application's appearance
     * Applying responsive design principles for better user experience
+1. Adding Django-table
+1. Adding Django-filters
+1. Adding Django-htmx
 1. Testing the Application
     * Writing unit tests for models, views, and forms
     * Running tests to ensure the application functions correctly
@@ -45,6 +48,7 @@ Throughout the tutorial, we will provide clear and concise instructions, accompa
     * Recap of what was covered in the tutorial
     * Encouraging further exploration and enhancements to the application
 
+## Tutorial Presentation:
 ### 1. Introduction
 
 In this tutorial, we will build a rental listing website using Django, a popular Python web framework. The application will allow users to create and manage rental listings, as well as search for listings based on various criteria.
@@ -407,7 +411,7 @@ In this tutorial, we will build a rental listing website using Django, a popular
     1. Open browser and go to `http://localhost:8000/signin/`: `open http://localhost:8000/signin/`
     1. Create a new user and create a new listing: `open http://localhost:8000/create/`
 
-### 5. Styling with CSS
+### 5. Styling with Bootstrap
 
 1. **Adding Bootstrap**
 
@@ -570,5 +574,4 @@ In this tutorial, we will build a rental listing website using Django, a popular
         ```
     1. Run server: `python manage.py runserver`
     1. Open browser and go to `http://localhost:8000/`: `open http://localhost:8000/`
-
 <!-- {% endraw %}) -->
