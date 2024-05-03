@@ -3,6 +3,8 @@
 
 
 # Some Quotes
+> There are 2 hardest problems in computer science: 2. Naming things. 1. Order guarantee. 3. Off-by-one errors.
+
 > Nanosecond is a time taken to evaluate and reject your job application.
 
 > My style of programming: Brutally intuitive style.
@@ -17,4 +19,4 @@
 
 > Sometimes you need to take a sword and sword things out.
 
-> When you have a Python everything is a Python script.
+> When you have a Python everything is a Python scriptable.
